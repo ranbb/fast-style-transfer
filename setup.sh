@@ -16,3 +16,6 @@ cd models
 ../gdown.sh 0B9jhaT37ydSyVGk0TC10bDF1S28 wave.ckpt 
 ../gdown.sh 0B9jhaT37ydSySjNrM3J5N2gweVk wreck.ckpt
 cd ..
+sudo apt-get update
+sudo apt-get install -y ffmpeg mc
+
