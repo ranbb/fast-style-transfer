@@ -3,4 +3,6 @@ source activate tensorflow_p36
 python -m venv --system-site-packages ./fast-style-transfer-venv
 deactivate
 source ./fast-style-transfer-venv/bin/activate
-pip install imageio==2.5.0 imageio-ffmpeg==0.3.0 moviepy==1.0.0 proglog==0.1.9 tqdm==4.32.2
+pip install imageio==2.5.0 imageio-ffmpeg==0.3.0 moviepy==1.0.0 proglog==0.1.9 tqdm==4.32.2 numpy scipy==0.18.1
+
+
